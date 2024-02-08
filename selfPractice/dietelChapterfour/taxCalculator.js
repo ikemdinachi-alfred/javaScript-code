@@ -1,10 +1,10 @@
 const prompt = require("prompt-sync")()
 
-function earningPercentage(number){
-    if (number > 0 && number <= 30000)
-        return number* 0.15
+function earningPercentage(amount){
+    if (amount > 0 && amount <= 30000)
+        return amount* 0.15
     else
-        return  number * 0.20;
+        return  amount * 0.20;
 }
 function taxCalculator(){
   let firstCitizen = prompt("Enter citizen name: ")
